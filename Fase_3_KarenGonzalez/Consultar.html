@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+
+    <title>Formulario de consulta de productos</title>
+  </head>
+  <body>
+                                             <!-- Barra de menu -->
+    <header>
+ <nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="ElectronicSAS.html">Sistema Electronic SAS</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="">Administración</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Inventarios</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="ingresar.html">Ingresar Producto</a></li>
+            <li><a class="dropdown-item" href="Actualizar.html">Actualizar Producto</a></li>
+            <li><a class="dropdown-item" href="Consultar.html">Consultar Producto</a></li>
+            <li><a class="dropdown-item" href="Eliminar.html">Eliminar producto</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Utilidades</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="Ganancias.html">Calculadora Ganancias</a></li>
+            <li><a class="dropdown-item" href="Convertidor.html">Calculadora Datos</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav> 
+                                                       <!-- formulario de consulta productos -->
+<div class="container">
+  <h1>Formulario de consulta de productos</h1>
+
+<p class="lead">
+Formulario de consulta de productos 
+</p>
+    <form action="#" method="POST">
+  <div class="form-group">
+    <label for="number">Codigo del producto:</label>
+    <input type="number" class="form-control" placeholder="Ingrese aquí el Codigo del producto" id="email" name="e" style="width:300px">
+  </div>
+
+<br>
+
+  <button type="submit" class="btn btn-warning">Consultar Producto</button>
+
+</form>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js" integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
